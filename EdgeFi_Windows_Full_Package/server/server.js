@@ -1,0 +1,2 @@
+// Placeholder EdgeFi server for offline full package
+const express = require('express');const app = express();app.get('/',(r,s)=>s.send('EdgeFi offline placeholder'));app.listen(3000,()=>console.log('EdgeFi offline server'));
